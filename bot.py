@@ -2,7 +2,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 BOT_TOKEN = "9296306156:AAE0_RHdxFf6sIU-2wF9UbOqJoMq0gOrfiQ"
-PHOTO_PATH = "banner.jpg"  # Replace with your local image path or a direct https:// image URL
+PHOTO_PATH = "botpics.jpg"  # Replace with your local image path or a direct https:// image URL
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
